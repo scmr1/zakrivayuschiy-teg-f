@@ -27,7 +27,7 @@
 }
   
 .main-body {
-    fill: transparent; 
+    fill: transparent;
     transition: fill 0.3s linear;
 }
 
@@ -68,7 +68,7 @@
     fill: var(--heart-filling-color);
 }
   
-.like-icon.is-liked .contour {
+.like-icon .is-liked .contour {
     transition-delay: 0.06s;
     fill: var(--heart-filling-color);
 }
