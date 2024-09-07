@@ -6,8 +6,10 @@
 */
 
 :root.theme-dark {
+    --mix-blend-mode: difference;
     --background-color: #000;
     --accent-color: #00CC14;
+    --collor-button: #00CC14;
     --font-weight-card-title: 785;
     --font-weight-card-text: 465;
     --buttom-like-text-color: #00CC14;
@@ -20,8 +22,10 @@
 }
 
 :root.theme-light {
+    --mix-blend-mode: normal;
     --background-color: #FFF;
     --accent-color: #000;
+    --collor-button: #fff;
     --font-weight-card-title: 700;
     --font-weight-card-text: 400;
     --buttom-like-text-color: #FFF;
