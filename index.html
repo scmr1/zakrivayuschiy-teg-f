@@ -480,7 +480,9 @@
         <button class="dialog__button button" type="button" 
           onclick="window['dialog-id'].showModal()" 
           aria-controls="dialog-id" >
-          <img src="./svg/floppy.svg" height="21" width="21" class="floppy" alt="floppy">
+          <svg  class="floppy" width="39" height="39" viewBox="0 0 39 39">
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
           <span class="button__text">
             Сохранить на&nbsp;память
           </span>
@@ -489,7 +491,9 @@
         <dialog id="dialog-id" class="modal-window">
           <form class="modal-window_form" method="dialog">
             <div class="modal-window_content" >
-              <img src="./svg/floppy.svg" height="39" width="39" class="floppy" alt="floppy">
+              <svg  class="floppy" width="39" height="39" viewBox="0 0 39 39">
+                <use href="./svg/floppy.svg#floppy"></use>
+              </svg>
               <p class="modal-window_text">Вставьте дискету, чтобы продолжить</p>
             </div>
             <button class="modal-window_button button" type="submit">
