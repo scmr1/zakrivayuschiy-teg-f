@@ -325,9 +325,20 @@
   padding-block: 15px;
 }
 
+.button__floppy {
+  block-size: 22px;
+  inline-size: 22px;
+  color: var(--button-text-color);
+  mix-blend-mode: difference;
+}
+
 .floppy {
+  flex-shrink: 0;
+  inline-size: 39px;
+  block-size: 39px;
   mix-blend-mode: difference;
   color: var(--buttom-like-text-color);
+  width: 28px;
 }
 
 .modal-window::backdrop {
@@ -371,6 +382,11 @@
 
 .modal-window_content {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-block-end: 30px;
 }
 
 .modal-window_text {
@@ -409,10 +425,6 @@
     flex-direction: column;
     width: 306px;
   } 
-
-  .floppy {
-    width: 28px;
-  }
 
   .modal-window_button {
     width: 257px;
