@@ -146,7 +146,7 @@
 
 .img__container {
   position: relative;
-  max-height: 696px;
+  height: 696px;
   max-width: 696px;
 }
 
@@ -325,10 +325,10 @@
 }
 
 .button__floppy {
-  block-size: 22px;
-  inline-size: 22px;
-  color: var(--button-text-color);
+  inline-size: 21px;
+  block-size: 21px;
   mix-blend-mode: difference;
+  color: var(--buttom-like-text-color);
 }
 
 .floppy {
@@ -353,6 +353,9 @@
   font-size: 14px;
   line-height: 21px;
   padding: 0px;
+  width: 353px;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-window_button {
@@ -360,10 +363,12 @@
   height: 38px;
   width: 293px;
   padding: 0px;
+  margin: 0 auto;
 }
 
 .modal-window:is([open]) .modal-window_form {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 30px;
   align-self: center;
 }
@@ -375,15 +380,15 @@
 }
 
 .modal-window_form {
-  padding: 30px;
+  margin: 30px 0;
 }
 
 .modal-window_content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-block-end: 30px;
   max-width: 293px;
+  margin: 0 auto;
 }
 
 .modal-window_text {
@@ -405,9 +410,14 @@
     max-width: 316px;
   }
 
+  .card__button__container {
+    margin: 30px auto;
+    width: 321px;
+  }
+
   .img__container {
     height: 375px;
-    width: 375px;
+    width: 371px;
   }
 
   .dialog__button {
@@ -431,5 +441,11 @@
   .floppy {
     width: 28px;
     height: 28px;
+  }
+  
+  .card__text {
+    width: 321px;
+    padding: 0;
+    margin: 30px auto 0;
   }
 }
