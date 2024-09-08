@@ -312,7 +312,6 @@
 }
 
 .card__icon-button:focus-visible {
-  color: var(--accent-color);
   outline: 2px solid var(--accent-color);
 }
 
